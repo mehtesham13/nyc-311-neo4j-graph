@@ -36,11 +36,11 @@ A graph fits this data because most questions are about links between entities. 
 
 | File | Contents |
 |---|---|
-| `NODE CREATION.sql` | Cypher for loading the CSV and creating nodes and relationships |
-| `DATA CLEANSING and TRANSFORMATION.sql` | Cypher for null handling, date conversion and feature engineering |
+| `cypher/01_node_creation.cypher` | Cypher for loading the CSV and creating nodes and relationships |
+| `cypher/02_cleaning_and_transformation.cypher` | Cypher for null handling, date conversion and feature engineering |
 | `NYC_311_Graph_Database_Project_Presentation.pdf` | Slides with the data model and results |
 
-The `.sql` files contain Cypher, not SQL. Run them in Neo4j Browser or `cypher-shell` with the APOC plugin installed.
+Run the scripts in order in Neo4j Browser or `cypher-shell`, with the APOC plugin installed.
 
 ## Team
 
